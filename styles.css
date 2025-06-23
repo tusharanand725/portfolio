@@ -1,0 +1,194 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('background4.jpg'); /* Replace with your own image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+}
+
+header {
+  background: rgba(0, 64, 128, 0.9);
+  color: white;
+  padding: 10px 20px;
+  backdrop-filter: blur(4px);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.08); /* glass-like layer */
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+h2 {
+  color: #ffffff;
+  margin-top: 0;
+}
+
+#semesters button.toggle {
+  background: #004080;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.semester-content {
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(6px);
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.course-content ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  color: #80cfff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+#about {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgba(52, 49, 49, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+
+.about-text {
+  flex: 1;
+  margin-right: 40px;
+}
+
+
+
+.linkedin-box {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.linkedin-box a {
+  text-decoration: none;
+  color: #0A66C2;
+  font-weight: bold;
+}
+
+.linkedin-logo {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+
+.hero-section {
+  padding: 2rem;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.hero-image img {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.linkedin-logo {
+  width: 100px;   /* Adjust size as needed */
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.linkedin-logo:hover {
+  transform: scale(1.1); /* subtle hover effect */
+}
+
+a {
+  color: #00aaff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0077cc;
+}
